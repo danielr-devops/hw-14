@@ -1,0 +1,5 @@
+---
+- name: Copy file with massage
+  ansible.builtin.copy:
+    src: /home/denail/test/hellow/files/massage.txt
+    dest: /tmp/test1/

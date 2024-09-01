@@ -1,0 +1,5 @@
+---
+- name: Deploy hostname template
+  template:
+    src: hostname.j2
+    dest: /tmp/test2
